@@ -1,5 +1,5 @@
 def strength_callculation(s):
-    vowels = "bcdfghjklmnopqrstvwxyz"
+    vowels = "aeiou"
     max_value = 0
     current_value = 0
     
@@ -21,6 +21,8 @@ print("Strength of the string", result)
 
 
 
-
+# Test cases
+#print(solve("zodiacs"))   # Output: 26
+#print(solve("strength"))  # Output: 57
 
 
