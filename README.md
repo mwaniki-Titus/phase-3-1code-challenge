@@ -18,10 +18,4 @@ The function returns True if the count of positive numbers is exactly 2, indicat
 
 
 ##challenge-3
-The solve function splits the given string into consonant substrings by splitting on vowels ('a' in this case). It then calculates the value of each consonant substring and returns the maximum value.The solve function takes a lowercase string, s, as input.
 
-Inside the solve function, there's a nested function called get_value. This function calculates the value of a consonant substring by summing up the ordinal values of its characters minus the ordinal value of 'a' and adding 1. This maps 'a' to 1, 'b' to 2, and so on.
-The consonant_substrings list is created by splitting the input string s at occurrences of the vowel 'a'. This effectively extracts the consonant substrings.
-For each consonant substring, the get_value function is used to calculate its value. The values of all consonant substrings are collected in a list.
-The maximum value among the calculated consonant substring values is determined using the max function.
-The function returns the maximum value, which is the highest value among the consonant substrings.
